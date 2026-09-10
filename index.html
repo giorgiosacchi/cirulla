@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="it">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Cirulla Genovese — Scegli la partita</title>
+<style>
+:root{--ink:#163a32;--cream:#f5edd9;--red:#c94b36;--gold:#d5a83e;--green:#1b594d}*{box-sizing:border-box}body{margin:0;min-height:100vh;background:radial-gradient(circle at 50% 10%,#fffaf0 0,#f5edd9 45%,#dfd0ae 100%);color:var(--ink);font-family:Arial,sans-serif;display:flex;flex-direction:column}.top{display:flex;justify-content:center;align-items:center;padding:22px}.logo{font-weight:900;letter-spacing:.19em}.logo b{display:inline-grid;place-items:center;width:47px;height:47px;margin-right:11px;border-radius:50%;background:var(--red);color:#fff;font:24px Georgia;box-shadow:0 3px 0 #913124}.hero{text-align:center;padding:12px 18px 25px}.hero p{margin:0 0 8px;font-size:12px;font-weight:bold;letter-spacing:.22em}.hero h1{margin:0;font:clamp(45px,7vw,82px)/.95 Georgia}.hero h1 i{color:var(--red)}.hero .lead{max-width:650px;margin:18px auto 0;font:19px/1.45 Georgia;letter-spacing:0}.choices{width:min(980px,94vw);margin:0 auto 34px;display:grid;grid-template-columns:1fr 1fr;gap:28px}.choice{position:relative;min-height:350px;padding:30px;border:1px solid #baaa87;background:#fffaf0;color:var(--ink);text-decoration:none;overflow:hidden;box-shadow:11px 11px var(--ink);transition:transform .18s,box-shadow .18s}.choice:hover,.choice:focus-visible{transform:translate(-4px,-4px);box-shadow:16px 16px var(--ink);outline:3px solid var(--gold)}.choice.computer{background:var(--green);color:#fff;box-shadow:11px 11px var(--red)}.choice.computer:hover,.choice.computer:focus-visible{box-shadow:16px 16px var(--red)}.icon{font-size:55px;line-height:1;margin-bottom:22px}.choice h2{max-width:340px;margin:0 0 12px;font:38px/1 Georgia}.choice p{max-width:390px;margin:0 0 24px;font:17px/1.45 Georgia}.go{display:inline-block;padding:12px 17px;background:var(--red);color:#fff;font-weight:bold;letter-spacing:.04em}.computer .go{background:var(--gold);color:var(--ink)}.cards{position:absolute;right:-16px;bottom:-31px;width:170px;height:180px;opacity:.9}.card{position:absolute;width:92px;height:136px;border:3px solid currentColor;border-radius:10px;background:#fffdf7;color:var(--red);box-shadow:0 5px 12px #0004;text-align:center;font:45px/136px Georgia}.card:first-child{left:7px;top:24px;transform:rotate(-17deg)}.card:last-child{left:65px;top:7px;transform:rotate(12deg);color:#1b3541}.computer .card{border-color:#fff}.note{text-align:center;margin:auto 15px 22px;font-size:12px;color:#635c4d}.note b{color:var(--red)}
+@media(max-width:700px){.top{padding:15px}.hero{padding-top:3px}.hero h1{font-size:48px}.hero .lead{font-size:17px}.choices{grid-template-columns:1fr;gap:20px}.choice{min-height:285px;padding:24px;box-shadow:7px 7px var(--ink)}.choice.computer{box-shadow:7px 7px var(--red)}.choice h2{font-size:33px}.icon{font-size:45px;margin-bottom:15px}.cards{transform:scale(.78);transform-origin:right bottom}.note{margin-top:5px}}
+</style>
+</head>
+<body>
+<header class="top"><div class="logo"><b>15</b>CIRULLA GENOVESE</div></header>
+<main>
+<section class="hero"><p>SCEGLI IL TUO AVVERSARIO</p><h1>Come vuoi <i>giocare?</i></h1><div class="lead">Sfida una persona invitandola nella tua stanza oppure allenati contro il computer.</div></section>
+<section class="choices">
+<a class="choice human" href="cirulla_github.html">
+<div class="icon">👥</div><h2>Gioca con una persona</h2><p>Crea una stanza, manda l’invito tramite WhatsApp e gioca online con un altro contendente.</p><span class="go">APRI LA PARTITA ONLINE →</span><div class="cards"><div class="card">♥</div><div class="card">♠</div></div>
+</a>
+<a class="choice computer" href="cirulla_computer.html">
+<div class="icon">♟️</div><h2>Gioca contro il computer</h2><p>Allenati da solo contro un avversario che valuta prese, scope, denari, settebello e primiera.</p><span class="go">SFIDA IL COMPUTER →</span><div class="cards"><div class="card">♦</div><div class="card">♣</div></div>
+</a>
+</section>
+</main>
+<footer class="note"><b>Importante:</b> carica questo file e i due programmi nella stessa cartella di GitHub.</footer>
+</body>
+</html>
